@@ -1,18 +1,20 @@
 public class Operator {
     public static void main(String[] args) {
 
-    int a = 10;
-    int b = 3;
+    int a = 14;
+    int b = 10;
 
     // Modulus Operator
     System.out.println("Remainder: " + (a % b));
 
     // Increment
     a++;
+    b++;
     System.out.println("After a++ : " + a);
 
     // Decrement
     b--;
+    a--;
     System.out.println("After b-- : " + b);
 
     // Pre Increment
@@ -23,6 +25,7 @@ public class Operator {
 
     // Assignment operator
     a += 5;
+    b -= 4;
     System.out.println("After a += 5 : " + a);
     // Modulus again
     System.out.println("a % 4 = " + (a % 4));

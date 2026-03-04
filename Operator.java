@@ -30,8 +30,7 @@ public class Operator {
     // Modulus again
     System.out.println("a % 4 = " + (a % 4));
 
-    int c = a + b;
-    System.out.println("Sum of a and b : " + c);
+   
 
     System.out.println("Final value of a : " + a);
 }

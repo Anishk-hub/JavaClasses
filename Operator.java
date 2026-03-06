@@ -30,7 +30,7 @@ public class Operator {
     // Modulus again
     System.out.println("a % 4 = " + (a % 4));
 
-   
+
 
     System.out.println("Final value of a : " + a);
 }

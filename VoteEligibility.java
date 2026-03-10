@@ -1,10 +1,16 @@
 public class VoteEligibility {
     public static void main(String[] args) {
-        int age = 23;
-        if(age>=18){
-            System.out.println("Person can vote");
-        }else{
-            System.out.println("Person cannot vote");
+        int age = 27;
+        if( age >= 18){
+            System.out.println(" Eligible to vote");
+
+            if (age >= 25){
+                System.out.println(" Can contest election");
+            } else{
+                System.out.println(" Can not contest election");
+            }
+        } else{
+            System.out.println(" Not Eligible to vote");
         }
     }
 }
